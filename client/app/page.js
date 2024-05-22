@@ -1,5 +1,9 @@
-import Image from "next/image";
+import FetchAPI from "./FetchAPI";
 
 export default function Home() {
-  return <div>yeah bro slay yeah</div>;
+  return (
+    <div>
+      <FetchAPI />
+    </div>
+  );
 }
