@@ -1,5 +1,5 @@
 # to not inlude the .env files in the build
-.env*.local
+.env
 
 # to not include the node_modules in the build
 /node_modules

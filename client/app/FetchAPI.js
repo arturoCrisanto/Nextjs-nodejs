@@ -9,7 +9,7 @@ export default function FetchAPI() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:8080/api/home");
+        const response = await fetch(`${process.env.SERVER_PORT}/api/home`);
         if (!response.ok) {
           throw new Error(`Error: ${response.status}`);
         }
