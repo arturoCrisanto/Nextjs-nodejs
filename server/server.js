@@ -6,7 +6,7 @@ const cors = require("cors");
 app.use(cors());
 
 app.get("/api/home", (req, res) => {
-  res.json({ message: "Welcome to the page!" });
+  res.json({ message: "the api is working!" });
 });
 
 app.listen(process.env.PORT, () => {
