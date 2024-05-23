@@ -7,7 +7,6 @@ export default function Home() {
     <div className="flex flex-col">
       <Header />
       <Body />
-      <Footer />
     </div>
   );
 }
