@@ -1,9 +1,9 @@
-import FetchAPI from "./FetchAPI";
+import Header from "./homepage/Header";
 
 export default function Home() {
   return (
     <div>
-      <FetchAPI />
+      <Header />
     </div>
   );
 }
