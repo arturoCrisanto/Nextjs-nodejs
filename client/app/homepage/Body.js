@@ -5,7 +5,7 @@ import BlobBodyicon from "../../public/blob.svg";
 export default function Body() {
   return (
     <div className="flex flex-row justify-evenly">
-      <div className="">
+      <div className="w-[600px] h-[400px]">
         <div className="w-[600px] h-[300px] m-2 py-4 flex flex-col justify-center items-center ">
           <div className="transform scale-75 -rotate-[20deg] -translate-x-20 translate-y-[1rem]">
             <h2 className="pb-2 text-3xl font-semibold tracking-wider">MARK</h2>
@@ -29,8 +29,8 @@ export default function Body() {
           </div>
         </div>
       </div>
-      <div className="">
-        <BlobBodyicon className="w-[800px] h-[700px] translate-x-[8rem] translate-y-[2rem]" />
+      <div className="flex justify-center items-center">
+        <BlobBodyicon className="w-[800px] h-[400px]" />
       </div>
     </div>
   );

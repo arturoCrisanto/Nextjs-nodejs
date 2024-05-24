@@ -1,4 +1,11 @@
 "use client";
+
+import Waves from "../../public/waves1.svg";
+
 export default function Footer() {
-  return <div className="flex justify-center items-center">footer</div>;
+  return (
+    <div className="">
+      <Waves className="" />
+    </div>
+  );
 }
