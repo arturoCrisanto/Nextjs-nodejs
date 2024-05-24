@@ -1,4 +1,7 @@
 "use client";
+
+import BlobBodyicon from "../../public/blob.svg";
+
 export default function Body() {
   return (
     <div className="flex flex-row justify-evenly">
@@ -26,7 +29,9 @@ export default function Body() {
           </div>
         </div>
       </div>
-      <div className="order-last">other side</div>
+      <div className="">
+        <BlobBodyicon className="w-[800px] h-[700px] translate-x-[8rem] translate-y-[2rem]" />
+      </div>
     </div>
   );
 }
