@@ -21,7 +21,7 @@ export default function Body() {
             </h3>
           </div>
           <div className="">
-            <p className="text-xl text-muted-foreground">
+            <p className="text-l text-muted-foreground">
               I craft beautiful websites by day, fueled by delicious coffee (and
               a sprinkle of test automation knowledge). Let's build something
               together!
